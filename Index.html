@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FRUTAS Y VERDURAS DE RICARDO ANTONIO</title>
+</head>
+<body background="img/fondo1.png">
+	<center>
+		<font size="5" face="courier" color="#2D9C17">
+
+			<h1><b><big>FRUTAS Y VERDURAS DE RICARDO ANTONIO </big> </b> </h1>
+			<hr><br><br>
+
+			<table bgcolor="white" border="8" bordercolor="black" width="0%">
+				<tr>
+					<th>Vocabulary</th>
+				</tr>
+
+				<tr>
+					<td>
+						<select name="selecciona" size="1" id="varFV" onchange="FV()">
+							<option value="0" selected>Seleccionar</option>
+							<option value="1">Sandia</option>
+							<option value="2">Piña</option>
+							<option value="3">Zanahoria</option>
+							<option value="4">Tomate</option>
+							<option value="5">Papa</option>
+							<option value="6">Arandono</option>
+							<option value="7">Lechuga</option>
+							<option value="8">Rabano</option>
+							<option value="9">Melon</option>
+							<option value="10">Dragon</option>
+							<option value="11">Tuna</option>
+							<option value="12">Zarzamora</option>
+							<option value="13">Apio</option>
+							<option value="14">Naranja</option>
+							<option value="15">Coco</option>
+							<option value="16">Ricardo An.</option>
+						</select>
+					</td>
+				</tr>	
+			</table>
+
+			<br><a id="ref1"><img id="img" width="260" height="250" border="black"> </a>
+			<p style="color: #37302D" id="imprimir"></p>
+			<h4><p align="rigth">Ricardo Antonio.</p> </h4>
+
+			<script type="text/javascript">
+				function FV()
+				{
+					var ins = document.getElementById("varFV").value;
+
+					if (parseInt(ins)==0) {
+						document.getElementById("img").src="img/image2.jpg";
+						document.getElementById("ref1").href="imagen2.html";
+						document.getElementById("imprimir").innerHTML="selecciona opcion";
+				}
+
+				    if (parseInt(ins)==1) {
+						document.getElementById("img").src="img/Sandia.png";
+						document.getElementById("ref1").href="Sandia.html";
+						document.getElementById("imprimir").innerHTML="Watermelon";
+					}
+
+					if (parseInt(ins)==2) {
+						document.getElementById("img").src="img/Piña.jpg";
+						document.getElementById("ref1").href="Piña.html";
+						document.getElementById("imprimir").innerHTML="Pineapple";
+					}
+
+					if (parseInt(ins)==3) {
+						document.getElementById("img").src="img/Zanahoria.jpg";
+						document.getElementById("ref1").href="Zanahoria.html";
+						document.getElementById("imprimir").innerHTML="Carrot";
+					}
+
+					if (parseInt(ins)==4) {
+						document.getElementById("img").src="img/Tomate.jpg";
+						document.getElementById("ref1").href="Tomate.html";
+						document.getElementById("imprimir").innerHTML="Tomato";
+					}
+
+					if (parseInt(ins)==5) {
+						document.getElementById("img").src="img/Papa.jpg";
+						document.getElementById("ref1").href="Papa.html";
+						document.getElementById("imprimir").innerHTML="Potato";
+					}
+
+					if (parseInt(ins)==6) {
+						document.getElementById("img").src="img/Arandono.jpg";
+						document.getElementById("ref1").href="Arandono.html";
+						document.getElementById("imprimir").innerHTML="Blueberry";
+					}
+
+					if (parseInt(ins)==7) {
+						document.getElementById("img").src="img/Lechuga.jpg";
+						document.getElementById("ref1").href="Lechuga.html";
+						document.getElementById("imprimir").innerHTML="Lettuce";
+					}
+
+					if (parseInt(ins)==8) {
+						document.getElementById("img").src="img/Rabano.jpg";
+						document.getElementById("ref1").href="rabano.html";
+						document.getElementById("imprimir").innerHTML="Radish";
+					}
+
+					if (parseInt(ins)==9) {
+						document.getElementById("img").src="img/Melon.jpg";
+						document.getElementById("ref1").href="Melon.html";
+						document.getElementById("imprimir").innerHTML="Melon";
+					}
+
+					if (parseInt(ins)==10) {
+						document.getElementById("img").src="img/Dragon.jpg";
+						document.getElementById("ref1").href="Dragon.html";
+						document.getElementById("imprimir").innerHTML="Dragon";
+					}
+
+					if (parseInt(ins)==11) {
+						document.getElementById("img").src="img/Tuna.jpg";
+						document.getElementById("ref1").href="Tuna.html";
+						document.getElementById("imprimir").innerHTML="Prickly Pear";
+					}
+
+					if (parseInt(ins)==12) {
+						document.getElementById("img").src="img/Zarzamora.jpg";
+						document.getElementById("ref1").href="Zarzamora.html";
+						document.getElementById("imprimir").innerHTML="Blackberry";
+					}
+
+					if (parseInt(ins)==13) {
+						document.getElementById("img").src="img/Apio.jpg";
+						document.getElementById("ref1").href="Apio.html";
+						document.getElementById("imprimir").innerHTML="Celery";
+					}
+
+					if (parseInt(ins)==14) {
+						document.getElementById("img").src="img/Naranja.jpg";
+						document.getElementById("ref1").href="Naranja.html";
+						document.getElementById("imprimir").innerHTML="Orange";
+					}
+
+					if (parseInt(ins)==15) {
+						document.getElementById("img").src="img/Coco.jpg";
+						document.getElementById("ref1").href="Coco.html";
+						document.getElementById("imprimir").innerHTML="Coconut";
+					}
+
+					if (parseInt(ins)==16) {
+						document.getElementById("img").src="img/sandia.jpg";
+						document.getElementById("ref1").href="sandia.html";
+						document.getElementById("imprimir").innerHTML="Watermelon";
+					}
+				}
+						
+			</script>
+
+	</center>
+
+</body>
+</html>
